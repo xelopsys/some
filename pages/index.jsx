@@ -1,10 +1,24 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+// import styles from '../styles/Home.module.css'
+import Header from '../components/header'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
+    <div>
+      <Header/>
+      <div className="bg-teal-500">
+        display
+      </div>
+      <div className="chat-notification">
+  <div className="chat-notification-logo-wrapper">
+    <img className="chat-notification-logo" src="/img/logo.svg" alt="ChitChat Logo"/>
+  </div>
+  <div className="chat-notification-content">
+    <h2 className="chat-notification-title">ChitChat</h2>
+    <p className="chat-notification-message">You have a new message!</p>
+  </div>
+</div>
+      {/* <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -59,7 +73,7 @@ export default function Home() {
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
