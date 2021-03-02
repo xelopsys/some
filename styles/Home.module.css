@@ -113,6 +113,37 @@
 .logo {
   height: 1em;
 }
+.word{
+  font-size: 30px;
+  font-weight: bold;
+}
+.header{
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(243, 243, 243);
+}
+.div1{
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+  url('../public/back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #fafafa77;
+  color: white;
+}
 
 @media (max-width: 600px) {
   .grid {

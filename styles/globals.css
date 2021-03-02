@@ -1,7 +1,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-/* html,
+html,
 body {
   padding: 0;
   margin: 0;
@@ -10,10 +10,38 @@ body {
 }
 
 a {
-  color: inherit;
+  color: black;
   text-decoration: none;
+  list-style: none;
 }
 
 * {
   box-sizing: border-box;
-} */
+}
+span {
+  text-transform: capitalize;
+  padding-top: 3px;
+  font-size: 17px;
+
+}
+
+
+button{
+  padding: 0;
+}
+nav{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  background-color: rgb(243, 243, 243);
+}
+nav ul {
+  display: flex;
+  flex-direction: row!important;
+
+  justify-content: space-evenly;
+  align-items: center;
+}

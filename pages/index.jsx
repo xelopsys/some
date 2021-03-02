@@ -1,23 +1,13 @@
-import Head from 'next/head'
+import Head from "next/head";
 // import styles from '../styles/Home.module.css'
-import Header from '../components/header'
-
+import Header from "../components/header";
+import ImgDiv from "../parts/div"
 export default function Home() {
   return (
     <div>
-      <Header/>
-      <div className="bg-teal-500">
-        display
-      </div>
-      <div className="chat-notification">
-  <div className="chat-notification-logo-wrapper">
-    <img className="chat-notification-logo" src="/img/logo.svg" alt="ChitChat Logo"/>
-  </div>
-  <div className="chat-notification-content">
-    <h2 className="chat-notification-title">ChitChat</h2>
-    <p className="chat-notification-message">You have a new message!</p>
-  </div>
-</div>
+      <Header />
+
+      <ImgDiv/>
       {/* <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -75,5 +65,5 @@ export default function Home() {
         </a>
       </footer> */}
     </div>
-  )
+  );
 }
