@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Services() {
   return (
-    <div className="container-fluid mb-3 border-top">
+    <div className="container-fluid mb-3 border-top" id="services">
       <div className="row text-center w-100 mt-5 mb-3 mx-auto">
         <h1 className="display-4 text-center mx-auto border-bottom pb-1">Services</h1>
       </div>

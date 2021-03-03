@@ -195,6 +195,9 @@
   color: white;
   line-height: 1;
 }
+.navbar{
+  color: black;
+}
 
 
 @media (max-width: 600px) {

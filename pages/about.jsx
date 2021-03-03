@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 
 export default function About() {
   return (
-    <div className="container-fluid mb-3">
+    <div className="container-fluid mb-3" id="about">
       <div className="row text-center w-100 mt-5 mb-3">
         <h1 className="display-4  w-100 text-center mx-auto border-bottom pb-1">About us</h1>
       </div>

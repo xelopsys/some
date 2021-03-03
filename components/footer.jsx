@@ -11,8 +11,8 @@ export default function Footer(){
                 <p className="text-center w-100 mt-3">All rights reserved by Secure Investment LLC company &copy;</p>
             </div>
             <div className="row w-100 text-center mx-auto mb-auto mt-0">
-                <a className="text-center w-100" href="tel:+998911649612">Call to Secure Investment LLC company</a>
-                <p className="ml-auto">Made by <a href="https://xelopsys.me">XelopSys</a></p>
+               
+                <p className="ml-auto mt-1 mr-1">Made by <a href="https://xelopsys.me">XelopSys</a></p>
             </div>
         </div>
     )

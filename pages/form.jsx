@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Form() {
   return (
-    <div className="container mb-5 mt-3">
+    <div className="container mb-5 mt-3" id="contact">
       <div className="row text-center w-100 mt-5 mb-3">
         <h1 className="display-4 text-center mx-auto border-bottom pb-1">
           Contact us

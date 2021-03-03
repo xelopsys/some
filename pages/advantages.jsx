@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Advantage() {
   return (
-    <div className={styles.div3}>
+    <div className={styles.div3} id="advantage">
       <div className="container-fluid py-4 h-auto px-auto">
         <div className="row text-center w-100 mx-auto mt-4 mb-4 px-auto ">
           <h1 className="display-4  text-center mx-auto border-bottom pb-1">

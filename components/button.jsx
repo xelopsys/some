@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
@@ -11,6 +12,9 @@ import ListItemText from "@material-ui/core/ListItemText";
 import InboxIcon from "@material-ui/icons/MoveToInbox";
 import MailIcon from "@material-ui/icons/Mail";
 import styles from "../styles/Home.module.css";
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+
 
 const useStyles = makeStyles({
   list: {
@@ -50,16 +54,28 @@ export default function ButtonMenu() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>
-        {["All mail", "Trash", "Spam"].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List>
+      <div className={styles.navbar}>
+        <ul className="navbar navbar-nav navbar-light">
+          <li className="nav-item">
+              <a className="nav-link" href="#home" spy={true} smooth={true}>Home </a>
+          </li>
+          <li className="nav-item">
+              <a className="nav-link" href="#about" spy={true} smooth={true}>About </a>
+          </li>
+          <li className="nav-item">
+              <a className="nav-link" href="#services" spy={true} smooth={true}>Services </a>
+          </li>
+          <li className="nav-item">
+              <a className="nav-link" href="#advantage" spy={true} smooth={true}>Advantages </a>
+          </li>
+          <li className="nav-item">
+              <a className="nav-link" href="#contact" spy={true} smooth={true}>Contact </a>
+          </li>
+          <li className="nav-item">
+              <a className="nav-link" href="#map" spy={true} smooth={true}>Map </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 
@@ -67,10 +83,10 @@ export default function ButtonMenu() {
     <div className={styles.header}>
 
       <a className="navbar-brand w-75 mt-0 p-0 ml-3 mr-auto" href="#">
-        Audit
+        Secure Investment
       </a>
       <div className=" mr-auto">
-      {["Меню"].map((anchor) => (
+      {["Menu"].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button className={styles.word} onClick={toggleDrawer(anchor, true)}>
             {anchor}

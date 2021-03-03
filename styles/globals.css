@@ -37,6 +37,7 @@ button{
   padding: 0;
 }
 nav{
+  margin: 0!important;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -55,5 +56,20 @@ nav ul {
 li{
   margin-top: 4px;
   margin-bottom: 4px;
+  color: black!important;
 }
 
+
+
+.nav-link{
+  color: black!important;
+}
+
+p{
+  word-wrap: break-word!important;
+  word-break: keep-all!important;
+}
+
+.navbar-brand{
+  color: black!important;
+}
