@@ -16,24 +16,6 @@
   align-items: center;
 }
 
-.footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer img {
-  margin-left: 0.5rem;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .title a {
   color: #0070f3;
@@ -144,6 +126,76 @@
   background-color: #fafafa77;
   color: white;
 }
+.div3{
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+  url('../public/back2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+
+.img{
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  padding: 7px;
+  background-color: lightgreen;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.span{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: cyan;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.form{
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: left;
+  /* border: 1px solid black; */
+}
+.map{
+  width: 100vw;
+  height: 300px;
+}
+
+.footer{
+  height: fit-content;
+  background-color: black;
+  color: white;
+  line-height: 1;
+}
+
 
 @media (max-width: 600px) {
   .grid {

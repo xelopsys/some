@@ -7,7 +7,7 @@ export default function MenuListHead() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light sticky-top">
       <a className="navbar-brand" href="#">
-        Navbar
+        Audit
       </a>
 
 

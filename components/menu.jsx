@@ -7,7 +7,7 @@ export default function MenuListHead() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light sticky-top">
       <a className="navbar-brand" href="#">
-        Navbar
+        Audit
       </a>
 
 
@@ -36,6 +36,10 @@ export default function MenuListHead() {
             >
               Disabled
             </a>
+          </li>
+          <li className="nav-item mx-3">
+          <a className="text-center nav-link" href="tel:+998911649612">Tell:+998 (91) 164-96-12</a>
+
           </li>
         </ul>
 

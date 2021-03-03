@@ -1,13 +1,36 @@
 import Head from "next/head";
 // import styles from '../styles/Home.module.css'
 import Header from "../components/header";
-import ImgDiv from "../parts/div"
+import ImgDiv from "./home"
+import About from "./about"
+import Advantage from "./advantages"
+import Services from "./services"
+import Form from "./form"
+import Map from "./map"
+import Footer from "../components/footer"
+
+
 export default function Home() {
   return (
     <div>
       <Header />
 
       <ImgDiv/>
+
+      <About/>
+
+      <Services/>
+
+
+      <Advantage/>
+
+
+      <Form/>
+
+      <Map/>
+
+
+      <Footer/>
       {/* <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />

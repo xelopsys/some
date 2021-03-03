@@ -9,6 +9,13 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+html{
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+
 a {
   color: black;
   text-decoration: none;
@@ -45,3 +52,8 @@ nav ul {
   justify-content: space-evenly;
   align-items: center;
 }
+li{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+

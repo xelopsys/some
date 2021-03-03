@@ -67,7 +67,7 @@ export default function ButtonMenu() {
     <div className={styles.header}>
 
       <a className="navbar-brand w-75 mt-0 p-0 ml-3 mr-auto" href="#">
-        Navbar
+        Audit
       </a>
       <div className=" mr-auto">
       {["Меню"].map((anchor) => (
